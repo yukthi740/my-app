@@ -11,7 +11,7 @@ steps {
 sh "mvn test"
 }
 }
-stage('---Deploy'---) {
+stage('---Deploy---') {
 steps {
 sh "mvn package"
 }
